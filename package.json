@@ -1,0 +1,17 @@
+{
+  "name": "cabin-status",
+  "version": "1.0.0",
+  "description": "RaspberryPI + SenseHat to measure and record stats of the cabin over a long period of time",
+  "main": "src/main.js",
+  "author": "Alex Petersen <theoperatore@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "precommit": "pretty-quick --staged"
+  },
+  "devDependencies": {
+    "husky": "^1.1.2",
+    "prettier": "^1.14.3",
+    "pretty-quick": "^1.8.0"
+  }
+}
