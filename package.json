@@ -7,7 +7,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "lint": "zeit-eslint --ext .jsx,.js ."
+    "lint": "zeit-eslint --ext .jsx,.js .",
+    "deploy": "rsync -avzhPe ssh src/ pi@raspberry.local:~/cabin-hab/",
+    "dry-run-deploy": "rsync --dry-run -avzhPe ssh src/ pi@raspberry.local:~/cabin-hab/"
   },
   "devDependencies": {
     "@zeit/eslint-config-node": "^0.3.0",
