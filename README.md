@@ -32,6 +32,42 @@ In terms of what questions I hope to use the data to answer:
 4. How much effort and construction must we put into properly insulating the water pipes such that the cabin is usable during the winter months?
 5. Can a person survive in the cabin during the coldest winter Wisconsin can throw at them?
 
+### Main sensor hardware
+
+- [x] RaspberryPi Zero W
+- [x] RaspberryPI SenseHat
+- [ ] External/Renewable power source (PiJuice or SleepyPi)
+- [ ] Enclosure that adheres to foundation
+
+### Main sensor software
+
+- [x] RaspianOS
+- [x] enable `ssh`: [ssh docs](/docs/ssh.md)
+- [x] auto-connect to wifi network via `wpa_supplicant`: [wpa_supplicant docs](/docs/wpa_supplicant.md)
+- [ ] Install [SenseHat Lib](https://github.com/RPi-Distro/python-sense-hat) for python
+- [ ] Install sqlite3
+- [ ] Install nodejs
+- [ ] rsync application code to pi (or git clone)
+
+---
+
+### Satellite PoE sensor hardware
+
+- [ ] RaspberryPi (any model compatible with PoE Hat)
+- [ ] RaspberryPi PoE Hat
+- [ ] Ethernet capable of PoE
+- [ ] Any sensor
+- [ ] Enclosure
+
+### Satellite PoE sensor software
+
+- [ ] RaspianOS
+- [ ] enable `ssh`: [ssh docs](/docs/ssh.md)
+- [ ] auto-connect to wifi network via `wpa_supplicant`: [wpa_supplicant docs](/docs/wpa_supplicant.md)
+- [ ] Install sqlite3
+- [ ] Install nodejs
+- [ ] rsync app code to pi (or git clone)
+
 ### License
 
 MIT
