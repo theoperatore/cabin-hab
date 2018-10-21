@@ -1,7 +1,7 @@
 {
   "name": "cabin-hab",
   "version": "1.0.0",
-  "description": "RaspberryPI + SenseHat to measure and record stats of the cabin over a long period of time",
+  "description": "WoT project defining a gateway and web things to capture stats about a cabin in wisconsin",
   "main": "src/main.js",
   "author": "Alex Petersen <theoperatore@gmail.com>",
   "license": "MIT",
