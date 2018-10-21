@@ -1,5 +1,5 @@
 {
-  "name": "cabin-status",
+  "name": "cabin-hab",
   "version": "1.0.0",
   "description": "RaspberryPI + SenseHat to measure and record stats of the cabin over a long period of time",
   "main": "src/main.js",

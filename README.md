@@ -1,4 +1,4 @@
-# Cabin Status (IoT)
+# CabinHab (WoT)
 
 A nodejs project that uses a RaspberryPI with a SenseHat to collect various readings around my family's cabin in the north woods of Wisconsin.
 
