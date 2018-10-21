@@ -2,6 +2,8 @@
 
 A nodejs project that uses a RaspberryPI with a SenseHat to collect various readings around my family's cabin in the north woods of Wisconsin.
 
+Also a chance for me to implement [Mozilla's Web of Things Draft RFC](https://iot.mozilla.org/wot/) to create a Thing and consume it using their Gateway. See their [blog post](https://hacks.mozilla.org/2018/02/how-to-build-your-own-private-smart-home-with-a-raspberry-pi-and-mozillas-things-gateway/) for more information.
+
 ### Motivation
 
 Since the cabin is barely a 2.5 season cabin, there are lots of interesting things that happen during the winter months that we just don't know about. So this project aims to fill in the gaps with some data, specifically:
