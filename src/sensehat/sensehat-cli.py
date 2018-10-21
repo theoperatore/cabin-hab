@@ -1,4 +1,8 @@
+# from sense_hat import SenseHat;
 import argparse;
+
+# sense = SenseHat();
+# sense.clear();
 
 parser = argparse.ArgumentParser(description="Small CLI to get sensor values out of the SenseHat");
 parser.add_argument("-t", "--temperature", help="print temperature readings to stdout", action="store_true");
